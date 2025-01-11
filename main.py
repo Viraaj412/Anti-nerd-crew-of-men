@@ -1,8 +1,8 @@
 import football 
-import geograpy
+import geography
 import music
 from football import start_quiz as football_quiz
-from geograpy import start_quiz as geograpy_quiz
+from geography import start_quiz as geography_quiz
 from music import start_quiz as music_quiz
 def start_quiz():
     score = 0

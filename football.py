@@ -240,277 +240,151 @@ def start_quiz():
     print(f"Your current score: {score}\n")
 
     # Question 18
-    print("Question 18: What is the maximum number of substitutions allowed during a normal football match?")
-    print("A. 3")
-    print("B. 5")
-    print("C. 7")
-    print("D. 6")
+    print("Question 18: What is the term for the person who manages a football team?")
+    print("A. Coach")
+    print("B. Captain")
+    print("C. Referee")
+    print("D. Manager")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "B":
+    if answer == "A":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is B. 5.")
+        print("Wrong! The correct answer is A. Coach.")
     print(f"Your current score: {score}\n")
 
     # Question 19
-    print("Question 19: Which country hosted the 2018 FIFA World Cup?")
-    print("A. Russia")
-    print("B. Brazil")
-    print("C. South Africa")
-    print("D. Qatar")
+    print("Question 19: What is the maximum number of substitutions a team can make during normal time?")
+    print("A. 3")
+    print("B. 5")
+    print("C. 7")
+    print("D. 8")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "A":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. Russia.")
+        print("Wrong! The correct answer is A. 3.")
     print(f"Your current score: {score}\n")
 
     # Question 20
-    print("Question 20: Which of these teams is not in Europe?")
-    print("A. Portugal")
-    print("B. France")
-    print("C. Egypt")
-    print("D. England")
+    print("Question 20: What is the term for a player who kicks the ball into the goal to score?")
+    print("A. Defender")
+    print("B. Forward")
+    print("C. Goalkeeper")
+    print("D. Midfielder")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "C":
+    if answer == "B":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is C. Egypt.")
+        print("Wrong! The correct answer is B. Forward.")
     print(f"Your current score: {score}\n")
 
     # Question 21
-    print("Question 21: What is the name of the famous football competition for European club teams?")
-    print("A. UEFA Champions League")
-    print("B. Copa Libertadores")
-    print("C. FA Cup")
-    print("D. Serie A")
+    print("Question 21: Who is the top scorer of the all-time FIFA World Cup?")
+    print("A. Ronaldo")
+    print("B. Messi")
+    print("C. Miroslav Klose")
+    print("D. Pele")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
+    if answer == "C":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. UEFA Champions League.")
+        print("Wrong! The correct answer is C. Miroslav Klose.")
     print(f"Your current score: {score}\n")
 
     # Question 22
-    print("Question 22: Which country won the Euro 2020 football tournament?")
-    print("A. Italy")
-    print("B. Spain")
-    print("C. England")
-    print("D. Germany")
+    print("Question 22: How long does each half last in a standard football match?")
+    print("A. 45 mins")
+    print("B. 30 mins")
+    print("C. 60 mins")
+    print("D. 15 mins")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "A":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. Italy.")
+        print("Wrong! The correct answer is A. 45 mins.")
     print(f"Your current score: {score}\n")
 
     # Question 23
-    print("Question 23: Which of these teams is famous for playing the tiki-taka style of football?")
-    print("A. Barcelona")
-    print("B. Chelsea")
-    print("C. Bayern Munich")
-    print("D. Liverpool")
+    print("Question 23: What happens after a goal kick?")
+    print("A. The match restarts from the centre circle")
+    print("B. The ball is passed from the halfway line")
+    print("C. The match restarts with a throw-in")
+    print("D. The goalkeeper kicks the ball from the goal line")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
+    if answer == "D":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. Barcelona.")
+        print("Wrong! The correct answer is D. The goalkeeper kicks the ball from the goal line.")
     print(f"Your current score: {score}\n")
 
     # Question 24
-    print("Question 24: Who is known as 'The Egyptian King' in football?")
-    print("A. Mohamed Salah")
-    print("B. Ahmed Hegazi")
-    print("C. Trezeguet")
-    print("D. Mahmoud Hassan")
+    print("Question 24: Who was the captain of England when they won the 1966 FIFA World Cup?")
+    print("A. David Beckham")
+    print("B. Geoff Hurst")
+    print("C. Bobby Moore")
+    print("D. Frank Lampard")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
+    if answer == "C":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. Mohamed Salah.")
+        print("Wrong! The correct answer is C. Bobby Moore.")
     print(f"Your current score: {score}\n")
 
     # Question 25
-    print("Question 25: Who won the Ballon d'Or 2021?")
-    print("A. Cristiano Ronaldo")
-    print("B. Robert Lewandowski")
-    print("C. Lionel Messi")
-    print("D. Kylian Mbappé")
+    print("Question 25: Which team has the most European Champions League titles?")
+    print("A. Barcelona")
+    print("B. Bayern Munich")
+    print("C. Real Madrid")
+    print("D. Juventus")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "C":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is C. Lionel Messi.")
+        print("Wrong! The correct answer is C. Real Madrid.")
     print(f"Your current score: {score}\n")
 
     # Question 26
-    print("Question 26: In which country is the famous football club Real Madrid based?")
-    print("A. Spain")
-    print("B. Italy")
-    print("C. England")
-    print("D. France")
+    print("Question 26: Who was awarded the Ballon d'Or in 2023?")
+    print("A. Lionel Messi")
+    print("B. Karim Benzema")
+    print("C. Kylian Mbappe")
+    print("D. Erling Haaland")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "A":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is A. Spain.")
+        print("Wrong! The correct answer is A. Lionel Messi.")
     print(f"Your current score: {score}\n")
 
     # Question 27
-    print("Question 27: What was the first football club to win the Premier League?")
-    print("A. Manchester United")
-    print("B. Liverpool")
-    print("C. Arsenal")
-    print("D. Blackburn Rovers")
+    print("Question 27: How many teams participated in the 2022 FIFA World Cup?")
+    print("A. 24")
+    print("B. 32")
+    print("C. 48")
+    print("D. 16")
     answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "D":
+    if answer == "B":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is D. Blackburn Rovers.")
+        print("Wrong! The correct answer is B. 32.")
     print(f"Your current score: {score}\n")
 
     # Question 28
-    print("Question 28: What is the name of the famous football competition for national teams in South America?")
-    print("A. Copa America")
-    print("B. Copa del Rey")
-    print("C. Copa Libertadores")
-    print("D. CONCACAF Gold Cup")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is A. Copa America.")
-    print(f"Your current score: {score}\n")
-
-    # Question 29
-    print("Question 29: Who won the 2020-2021 UEFA Champions League?")
-    print("A. Paris Saint-Germain")
-    print("B. Manchester City")
-    print("C. Chelsea")
-    print("D. Bayern Munich")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "C":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is C. Chelsea.")
-    print(f"Your current score: {score}\n")
-
-    # Question 30
-    print("Question 30: Which player holds the record for most goals scored in the FIFA World Cup?")
+    print("Question 28: Which player is known as 'CR7'?")
     print("A. Cristiano Ronaldo")
-    print("B. Miroslav Klose")
-    print("C. Lionel Messi")
-    print("D. Pele")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "B":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is B. Miroslav Klose.")
-    print(f"Your current score: {score}\n")
-
-    # Question 31
-    print("Question 31: What is the maximum number of players allowed on a football team roster for a World Cup?")
-    print("A. 23")
-    print("B. 26")
-    print("C. 30")
-    print("D. 32")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "B":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is B. 26.")
-    print(f"Your current score: {score}\n")
-
-    # Question 32
-    print("Question 32: Which football team is known as the 'Red Devils'?")  
-    print("A. Liverpool")
-    print("B. Arsenal")
-    print("C. Manchester United")
-    print("D. Chelsea")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "C":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is C. Manchester United.")
-    print(f"Your current score: {score}\n")
-
-    # Question 33
-    print("Question 33: Who is the all-time top scorer in Premier League history?")
-    print("A. Sergio Agüero")
-    print("B. Frank Lampard")
-    print("C. Thierry Henry")
-    print("D. Alan Shearer")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "D":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is D. Alan Shearer.")
-    print(f"Your current score: {score}\n")
-
-    # Question 34
-    print("Question 34: Which player scored the most goals in the 2022 FIFA World Cup?")
-    print("A. Kylian Mbappé")
-    print("B. Lionel Messi")
-    print("C. Cristiano Ronaldo")
-    print("D. Harry Kane")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is A. Kylian Mbappé.")
-    print(f"Your current score: {score}\n")
-
-    # Question 35
-    print("Question 35: Who was the captain of the England national football team during the 2018 World Cup?")
-    print("A. Harry Kane")
-    print("B. John Terry")
-    print("C. Wayne Rooney")
-    print("D. Steven Gerrard")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is A. Harry Kane.")
-    print(f"Your current score: {score}\n")
-
-    # Question 36
-    print("Question 36: Which team is known for the famous 'Black and White' striped kit?")
-    print("A. Juventus")
-    print("B. Inter Milan")
-    print("C. Borussia Dortmund")
-    print("D. Bayern Munich")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "A":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is A. Juventus.")
-    print(f"Your current score: {score}\n")
-
-    # Question 37
-    print("Question 37: What is the full name of the player 'CR7'?")
-    print("A. Cristiano Ronaldo")
-    print("B. Carlos Ronaldo")
-    print("C. Claudio Ricardo")
-    print("D. Christiano Ricardo")
+    print("B. Ciro Immobile")
+    print("C. Ronaldo Nazario")
+    print("D. Ricardo Quaresma")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "A":
         print("Correct!")
@@ -519,50 +393,170 @@ def start_quiz():
         print("Wrong! The correct answer is A. Cristiano Ronaldo.")
     print(f"Your current score: {score}\n")
 
-    # Question 38
-    print("Question 38: What is the nickname of the Brazil national football team?")
-    print("A. The Red Devils")
-    print("B. The Three Lions")
-    print("C. The Selecao")
-    print("D. La Roja")
-    answer = input("Your answer (A/B/C/D): ").upper()
-    if answer == "C":
-        print("Correct!")
-        score += 1
-    else:
-        print("Wrong! The correct answer is C. The Selecao.")
-    print(f"Your current score: {score}\n")
-
-    # Question 39
-    print("Question 39: Which country won the 2010 FIFA World Cup?")
-    print("A. Netherlands")
-    print("B. Spain")
-    print("C. Italy")
-    print("D. Germany")
+    # Question 29
+    print("Question 29: What does VAR stand for?")
+    print("A. Virtual Assistant Referee")
+    print("B. Video Assistant Referee")
+    print("C. Video Action Replay")
+    print("D. Virtual Arbitration Replay")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "B":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is B. Spain.")
+        print("Wrong! The correct answer is B. Video Assistant Referee.")
     print(f"Your current score: {score}\n")
 
-    # Question 40
-    print("Question 40: Who is the current manager of Manchester City?")
-    print("A. Jose Mourinho")
-    print("B. Jurgen Klopp")
-    print("C. Pep Guardiola")
-    print("D. Zinedine Zidane")
+    # Question 30
+    print("Question 30: Who won the UEFA Champions League in 2022?")
+    print("A. Real Madrid")
+    print("B. Liverpool")
+    print("C. Bayern Munich")
+    print("D. Manchester City")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. Real Madrid.")
+    print(f"Your current score: {score}\n")
+
+    # Question 31
+    print("Question 31: Who was the youngest player ever to play in the FIFA World Cup?")
+    print("A. Pelé")
+    print("B. Kylian Mbappé")
+    print("C. Norman Whiteside")
+    print("D. Diego Maradona")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. Pelé.")
+    print(f"Your current score: {score}\n")
+
+    # Question 32
+    print("Question 32: In which country was football first played?")
+    print("A. Spain")
+    print("B. England")
+    print("C. Brazil")
+    print("D. Italy")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "B":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is B. England.")
+    print(f"Your current score: {score}\n")
+
+    # Question 33
+    print("Question 33: Which country won the first-ever FIFA Women's World Cup?")
+    print("A. United States")
+    print("B. Germany")
+    print("C. Brazil")
+    print("D. Norway")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. United States.")
+    print(f"Your current score: {score}\n")
+
+    # Question 34
+    print("Question 34: Which club does Lionel Messi play for?")
+    print("A. Barcelona")
+    print("B. Juventus")
+    print("C. Paris Saint-Germain")
+    print("D. Inter Miami")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "D":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is D. Inter Miami.")
+    print(f"Your current score: {score}\n")
+
+    # Question 35
+    print("Question 35: What is the name of the famous football stadium in Barcelona?")
+    print("A. Old Trafford")
+    print("B. Allianz Arena")
+    print("C. Camp Nou")
+    print("D. Santiago Bernabeu")
     answer = input("Your answer (A/B/C/D): ").upper()
     if answer == "C":
         print("Correct!")
         score += 1
     else:
-        print("Wrong! The correct answer is C. Pep Guardiola.")
+        print("Wrong! The correct answer is C. Camp Nou.")
     print(f"Your current score: {score}\n")
 
-    # Final Score
-    print(f"Your final score: {score} out of 40")
+    # Question 36
+    print("Question 36: Which team won the 2016 UEFA Champions League?")
+    print("A. Barcelona")
+    print("B. Real Madrid")
+    print("C. Atletico Madrid")
+    print("D. Bayern Munich")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "B":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is B. Real Madrid.")
+    print(f"Your current score: {score}\n")
 
-# Start the quiz
-start_quiz()
+    # Question 37
+    print("Question 37: Which team did Cristiano Ronaldo play for before joining Manchester United?")
+    print("A. Juventus")
+    print("B. Real Madrid")
+    print("C. Porto")
+    print("D. Sporting CP")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. Juventus.")
+    print(f"Your current score: {score}\n")
+
+    # Question 38
+    print("Question 38: What happens if a match ends in a draw in a knockout stage?")
+    print("A. Extra time and penalties")
+    print("B. Replay the match")
+    print("C. The team with higher possession wins")
+    print("D. Flip a coin")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. Extra time and penalties.")
+    print(f"Your current score: {score}\n")
+
+    # Question 39
+    print("Question 39: What is the maximum number of players allowed on the pitch during a football match?")
+    print("A. 22")
+    print("B. 24")
+    print("C. 20")
+    print("D. 30")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. 22.")
+    print(f"Your current score: {score}\n")
+
+    # Question 40
+    print("Question 40: What is the term for a player who plays the position directly behind the forwards?")
+    print("A. Midfielder")
+    print("B. Goalkeeper")
+    print("C. Defender")
+    print("D. Attacker")
+    answer = input("Your answer (A/B/C/D): ").upper()
+    if answer == "A":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is A. Midfielder.")
+    print(f"Your final score: {score} out of 40.\n")

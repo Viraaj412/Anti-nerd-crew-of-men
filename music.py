@@ -210,10 +210,10 @@ def start_quiz():
         print("Correct!")
         score += 1  # Increment score by 1 for a correct answer
     else:
-        print("Wrong! The correct answer is a) Jay-Z.")
+        print("Wrong! The correct answer is b) Lute, hurdy-gurdy, recorder")
     print(f"Your current score: {score}\n")
     # Question 18
-    print("Question 18: ")
+    print("Question 18:  ")
     print("a) XXXTentacion")
     print("b) Juice WRLD")
     print("c) Lil Peep")

@@ -1,6 +1,5 @@
 def start_quiz():
     score = 0
-
     # Question 1
     print("Question 1: How many players are there on a football team?")
     print("A. 12")
@@ -14,7 +13,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. 11.")
     print(f"Your current score: {score}\n")
-
     # Question 2
     print("Question 2: What is the shape of a football?")
     print("A. Cube")
@@ -28,7 +26,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Sphere.")
     print(f"Your current score: {score}\n")
-
     # Question 3
     print("Question 3: How long is a standard football match (excluding extra time)?")
     print("A. 60 mins")
@@ -42,7 +39,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is D. 90 mins.")
     print(f"Your current score: {score}\n")
-
     # Question 4
     print("Question 4: What is it called when a player scores three goals in a single game?")
     print("A. Treble")
@@ -56,7 +52,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Hattrick.")
     print(f"Your current score: {score}\n")
-
     # Question 5
     print("Question 5: What is the name of the tournament that determines the world champion in football?")
     print("A. Euros")
@@ -70,7 +65,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. World Cup.")
     print(f"Your current score: {score}\n")
-
     # Question 6
     print("Question 6: What part of the body is a football player not allowed to use (except the goalkeeper)?")
     print("A. Head")
@@ -84,7 +78,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Hands.")
     print(f"Your current score: {score}\n")
-
     # Question 7
     print("Question 7: What is the term for when a ball crosses the sideline?")
     print("A. Throw in")
@@ -98,7 +91,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Throw in.")
     print(f"Your current score: {score}\n")
-
     # Question 8
     print("Question 8: What color is shown for a warning card?")
     print("A. Yellow")
@@ -112,7 +104,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Yellow.")
     print(f"Your current score: {score}\n")
-
     # Question 9
     print("Question 9: What color card means a player is sent off?")
     print("A. Yellow")
@@ -126,7 +117,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Red.")
     print(f"Your current score: {score}\n")
-
     # Question 10
     print("Question 10: Which country hosted the first FIFA World Cup?")
     print("A. Mexico")
@@ -140,7 +130,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is D. Uruguay.")
     print(f"Your current score: {score}\n")
-
     # Question 11
     print("Question 11: Which country has won the most FIFA World Cups?")
     print("A. Mexico")
@@ -154,7 +143,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Brazil.")
     print(f"Your current score: {score}\n")
-
     # Question 12
     print("Question 12: Who scored the famous 'Hand of God' goal?")
     print("A. Pele")
@@ -168,7 +156,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is D. Maradona.")
     print(f"Your current score: {score}\n")
-
     # Question 13
     print("Question 13: Who won the 2014 FIFA World Cup?")
     print("A. Italy")
@@ -182,7 +169,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Germany.")
     print(f"Your current score: {score}\n")
-
     # Question 14
     print("Question 14: Which country won the 2022 FIFA World Cup?")
     print("A. Argentina")
@@ -196,7 +182,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Argentina.")
     print(f"Your current score: {score}\n")
-
     # Question 15
     print("Question 15: What year did the first Women's World Cup take place?")
     print("A. 1991")
@@ -210,7 +195,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. 1991.")
     print(f"Your current score: {score}\n")
-
     # Question 16
     print("Question 16: How often does the FIFA World Cup take place?")
     print("A. Every year")
@@ -224,7 +208,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Every four years.")
     print(f"Your current score: {score}\n")
-
     # Question 17
     print("Question 17: Which team lost the 2018 FIFA World Cup final?")
     print("A. France")
@@ -238,7 +221,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Croatia.")
     print(f"Your current score: {score}\n")
-
     # Question 18
     print("Question 18: What is the term for the person who manages a football team?")
     print("A. Coach")
@@ -252,7 +234,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Coach.")
     print(f"Your current score: {score}\n")
-
     # Question 19
     print("Question 19: What is the maximum number of substitutions a team can make during normal time?")
     print("A. 3")
@@ -266,7 +247,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. 3.")
     print(f"Your current score: {score}\n")
-
     # Question 20
     print("Question 20: What is the term for a player who kicks the ball into the goal to score?")
     print("A. Defender")
@@ -280,7 +260,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Forward.")
     print(f"Your current score: {score}\n")
-
     # Question 21
     print("Question 21: Who is the top scorer of the all-time FIFA World Cup?")
     print("A. Ronaldo")
@@ -294,7 +273,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Miroslav Klose.")
     print(f"Your current score: {score}\n")
-
     # Question 22
     print("Question 22: How long does each half last in a standard football match?")
     print("A. 45 mins")
@@ -308,7 +286,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. 45 mins.")
     print(f"Your current score: {score}\n")
-
     # Question 23
     print("Question 23: What happens after a goal kick?")
     print("A. The match restarts from the centre circle")
@@ -322,7 +299,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is D. The goalkeeper kicks the ball from the goal line.")
     print(f"Your current score: {score}\n")
-
     # Question 24
     print("Question 24: Who was the captain of England when they won the 1966 FIFA World Cup?")
     print("A. David Beckham")
@@ -336,7 +312,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Bobby Moore.")
     print(f"Your current score: {score}\n")
-
     # Question 25
     print("Question 25: Which team has the most European Champions League titles?")
     print("A. Barcelona")
@@ -350,7 +325,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Real Madrid.")
     print(f"Your current score: {score}\n")
-
     # Question 26
     print("Question 26: Who was awarded the Ballon d'Or in 2023?")
     print("A. Lionel Messi")
@@ -364,7 +338,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Lionel Messi.")
     print(f"Your current score: {score}\n")
-
     # Question 27
     print("Question 27: How many teams participated in the 2022 FIFA World Cup?")
     print("A. 24")
@@ -378,7 +351,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. 32.")
     print(f"Your current score: {score}\n")
-
     # Question 28
     print("Question 28: Which player is known as 'CR7'?")
     print("A. Cristiano Ronaldo")
@@ -392,7 +364,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Cristiano Ronaldo.")
     print(f"Your current score: {score}\n")
-
     # Question 29
     print("Question 29: What does VAR stand for?")
     print("A. Virtual Assistant Referee")
@@ -406,7 +377,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Video Assistant Referee.")
     print(f"Your current score: {score}\n")
-
     # Question 30
     print("Question 30: Who won the UEFA Champions League in 2022?")
     print("A. Real Madrid")
@@ -420,7 +390,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Real Madrid.")
     print(f"Your current score: {score}\n")
-
     # Question 31
     print("Question 31: Who was the youngest player ever to play in the FIFA World Cup?")
     print("A. Pelé")
@@ -434,7 +403,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Pelé.")
     print(f"Your current score: {score}\n")
-
     # Question 32
     print("Question 32: In which country was football first played?")
     print("A. Spain")
@@ -448,7 +416,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. England.")
     print(f"Your current score: {score}\n")
-
     # Question 33
     print("Question 33: Which country won the first-ever FIFA Women's World Cup?")
     print("A. United States")
@@ -462,7 +429,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. United States.")
     print(f"Your current score: {score}\n")
-
     # Question 34
     print("Question 34: Which club does Lionel Messi play for?")
     print("A. Barcelona")
@@ -476,7 +442,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is D. Inter Miami.")
     print(f"Your current score: {score}\n")
-
     # Question 35
     print("Question 35: What is the name of the famous football stadium in Barcelona?")
     print("A. Old Trafford")
@@ -490,7 +455,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is C. Camp Nou.")
     print(f"Your current score: {score}\n")
-
     # Question 36
     print("Question 36: Which team won the 2016 UEFA Champions League?")
     print("A. Barcelona")
@@ -504,7 +468,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is B. Real Madrid.")
     print(f"Your current score: {score}\n")
-
     # Question 37
     print("Question 37: Which team did Cristiano Ronaldo play for before joining Manchester United?")
     print("A. Juventus")
@@ -518,7 +481,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Juventus.")
     print(f"Your current score: {score}\n")
-
     # Question 38
     print("Question 38: What happens if a match ends in a draw in a knockout stage?")
     print("A. Extra time and penalties")
@@ -532,7 +494,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. Extra time and penalties.")
     print(f"Your current score: {score}\n")
-
     # Question 39
     print("Question 39: What is the maximum number of players allowed on the pitch during a football match?")
     print("A. 22")
@@ -546,7 +507,6 @@ def start_quiz():
     else:
         print("Wrong! The correct answer is A. 22.")
     print(f"Your current score: {score}\n")
-
     # Question 40
     print("Question 40: What is the term for a player who plays the position directly behind the forwards?")
     print("A. Midfielder")
